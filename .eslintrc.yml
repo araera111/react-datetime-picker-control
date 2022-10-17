@@ -32,3 +32,5 @@ rules:
   no-underscore-dangle: 0
   no-unused-vars: 0
   '@typescript-eslint/no-unused-vars': [warn, varsIgnorePattern: '^_']
+  no-param-reassign: ['error', { props: true, ignorePropertyModificationsForRegex: ['^draft'] }]
+  react/jsx-props-no-spreading: 0
