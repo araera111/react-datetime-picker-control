@@ -7,7 +7,7 @@ extends:
   - airbnb
   - airbnb-typescript
   - prettier
-parser: '@typescript-eslint/parser'
+parser: "@typescript-eslint/parser"
 parserOptions:
   ecmaFeatures:
     jsx: true
@@ -18,19 +18,19 @@ plugins:
   - eslint-plugin-import
   - react
   - react-hooks
-  - '@typescript-eslint'
+  - "@typescript-eslint"
 rules:
   react-hooks/rules-of-hooks: error
   react-hooks/exhaustive-deps: warn
   react/react-in-jsx-scope: off
-  react/function-component-definition: [2, { 'namedComponents': 'arrow-function' }]
+  react/function-component-definition: [2, { "namedComponents": "arrow-function" }]
   no-return-assign: 0
   import/prefer-default-export: 0
-  '@typescript-eslint/naming-convention': 0
-  no-console: ['warn', { allow: ['debug'] }]
-  '@typescript-eslint/no-shadow': 0
+  "@typescript-eslint/naming-convention": 0
+  no-console: ["warn", { allow: ["debug"] }]
+  "@typescript-eslint/no-shadow": 0
   no-underscore-dangle: 0
   no-unused-vars: 0
-  '@typescript-eslint/no-unused-vars': [warn, varsIgnorePattern: '^_']
-  no-param-reassign: ['error', { props: true, ignorePropertyModificationsForRegex: ['^draft'] }]
+  "@typescript-eslint/no-unused-vars": [warn, varsIgnorePattern: "^_"]
+  no-param-reassign: ["error", { props: true, ignorePropertyModificationsForRegex: ["^draft"] }]
   react/jsx-props-no-spreading: 0

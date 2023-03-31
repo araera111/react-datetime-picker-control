@@ -1,10 +1,11 @@
-import react from '@vitejs/plugin-react';
-import { defineConfig } from 'vitest/config';
+import react from "@vitejs/plugin-react-swc";
+import { defineConfig } from "vitest/config";
 
 // https://vitejs.dev/config/
 export default defineConfig({
   test: {
-    globals: true
+    globals: true,
   },
-  plugins: [react()]
+  plugins: [react()],
+  build: { minify: true, reportCompressedSize: true },
 });

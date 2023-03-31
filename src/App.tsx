@@ -1,6 +1,6 @@
-import './App.css';
+import "./App.css";
 
 export const App = () => {
-  const a = '';
+  const a = "";
   return <div>App</div>;
 };
