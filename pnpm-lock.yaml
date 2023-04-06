@@ -4,6 +4,7 @@ specifiers:
   '@chakra-ui/react': ^2.5.5
   '@emotion/react': ^11.10.6
   '@emotion/styled': ^11.10.6
+  '@mobily/ts-belt': 4.0.0-rc.5
   '@swc/helpers': ^0.5.0
   '@tanstack/react-query': ^4.28.0
   '@trpc/client': ^10.19.0
@@ -11,7 +12,6 @@ specifiers:
   '@trpc/server': ^10.19.0
   '@types/eslint': ^8.37.0
   '@types/prettier': ^2.7.2
-  '@types/ramda': ^0.28.23
   '@types/react': ^18.0.33
   '@types/react-dom': ^18.0.11
   '@typescript-eslint/eslint-plugin': ^5.57.1
@@ -29,13 +29,11 @@ specifiers:
   eslint-plugin-jsx-a11y: ^6.7.1
   eslint-plugin-react: ^7.32.2
   eslint-plugin-react-hooks: ^4.6.0
-  fp-ts: ^2.13.1
   framer-motion: ^10.11.2
   jotai: ^2.0.3
   jotai-trpc: ^0.5.0
   postcss: ^8.4.21
   prettier: ^2.8.7
-  ramda: ^0.29.0
   react: ^18.2.0
   react-dom: ^18.2.0
   superjson: ^1.12.2
@@ -50,18 +48,16 @@ dependencies:
   '@chakra-ui/react': 2.5.5_pfs5rh5nwbp5uwsugja2ndezqu
   '@emotion/react': 11.10.6_pofolu2o2erjq4lhyzl3hqovzq
   '@emotion/styled': 11.10.6_wk7udrqmfetfur7bcmggr6k6fm
+  '@mobily/ts-belt': 4.0.0-rc.5
   '@tanstack/react-query': 4.28.0_biqbaboplfbrettd7655fr4n2y
   '@trpc/client': 10.19.0_@trpc+server@10.19.0
   '@trpc/react-query': 10.19.0_zqa7m7g576w3j4tsgubxjyorki
   '@trpc/server': 10.19.0
-  '@types/ramda': 0.28.23
   date-fns: 2.29.3
   devalue: 4.3.0
-  fp-ts: 2.13.1
   framer-motion: 10.11.2_biqbaboplfbrettd7655fr4n2y
   jotai: 2.0.3_react@18.2.0
   jotai-trpc: 0.5.0_4kx6gxifwsbthjb42yckspifsq
-  ramda: 0.29.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   superjson: 1.12.2
@@ -1799,6 +1795,11 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
+  /@mobily/ts-belt/4.0.0-rc.5:
+    resolution: {integrity: sha512-HLWJ8yKrfwdMzCvckRunrAL8Z+K5q31FdY6JzhkBp8o6uQsVuzf26KFyno1s6n6GB78OJEsjs57SaDk9plsJhA==}
+    engines: {node: '>= 10.*'}
+    dev: false
+
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -2053,12 +2054,6 @@ packages:
 
   /@types/prop-types/15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
-
-  /@types/ramda/0.28.23:
-    resolution: {integrity: sha512-9TYWiwkew+mCMsL7jZ+kkzy6QXn8PL5/SKmBPmjgUlTpkokZWTBr+OhiIUDztpAEbslWyt24NNfEmZUBFmnXig==}
-    dependencies:
-      ts-toolbelt: 6.15.5
-    dev: false
 
   /@types/react-dom/18.0.11:
     resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
@@ -3380,10 +3375,6 @@ packages:
       is-callable: 1.2.7
     dev: true
 
-  /fp-ts/2.13.1:
-    resolution: {integrity: sha512-0eu5ULPS2c/jsa1lGFneEFFEdTbembJv8e4QKXeVJ3lm/5hyve06dlKZrpxmMwJt6rYen7sxmHHK2CLaXvWuWQ==}
-    dev: false
-
   /fraction.js/4.2.0:
     resolution: {integrity: sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==}
     dev: true
@@ -4393,10 +4384,6 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /ramda/0.29.0:
-    resolution: {integrity: sha512-BBea6L67bYLtdbOqfp8f58fPMqEwx0doL+pAi8TZyp2YWz8R9G8z9x75CZI8W+ftqhFHCpEX2cRnUUXK130iKA==}
-    dev: false
-
   /react-clientside-effect/1.2.6_react@18.2.0:
     resolution: {integrity: sha512-XGGGRQAKY+q25Lz9a/4EPqom7WRjz3z9R2k4jhVKA/puQFH/5Nt27vFZYql4m4NVNdUvX8PS3O7r/Zzm7cjUlg==}
     peerDependencies:
@@ -4932,10 +4919,6 @@ packages:
       '@ts-morph/common': 0.17.0
       code-block-writer: 11.0.3
     dev: true
-
-  /ts-toolbelt/6.15.5:
-    resolution: {integrity: sha512-FZIXf1ksVyLcfr7M317jbB67XFJhOO1YqdTcuGaq9q5jLUoTikukZ+98TPjKiP2jC5CgmYdWWYs0s2nLSU0/1A==}
-    dev: false
 
   /tsconfig-paths/3.14.1:
     resolution: {integrity: sha512-fxDhWnFSLt3VuTwtvJt5fpwxBHg5AdKWMsgcPOOIilyjymcYVZoCQF8fvFRezCNfblEXmi+PcM1eYHeOAgXCOQ==}
