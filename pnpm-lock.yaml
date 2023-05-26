@@ -17,14 +17,14 @@ dependencies:
     specifier: ^4.29.7
     version: 4.29.7(react-dom@18.2.0)(react@18.2.0)
   '@trpc/client':
-    specifier: ^10.27.3
-    version: 10.27.3(@trpc/server@10.27.3)
+    specifier: ^10.28.0
+    version: 10.28.0(@trpc/server@10.28.0)
   '@trpc/react-query':
-    specifier: ^10.27.3
-    version: 10.27.3(@tanstack/react-query@4.29.7)(@trpc/client@10.27.3)(@trpc/server@10.27.3)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^10.28.0
+    version: 10.28.0(@tanstack/react-query@4.29.7)(@trpc/client@10.28.0)(@trpc/server@10.28.0)(react-dom@18.2.0)(react@18.2.0)
   '@trpc/server':
-    specifier: ^10.27.3
-    version: 10.27.3
+    specifier: ^10.28.0
+    version: 10.28.0
   date-fns:
     specifier: ^2.30.0
     version: 2.30.0
@@ -39,7 +39,7 @@ dependencies:
     version: 2.1.0(react@18.2.0)
   jotai-trpc:
     specifier: ^0.5.1
-    version: 0.5.1(@trpc/client@10.27.3)(@trpc/server@10.27.3)(jotai@2.1.0)
+    version: 0.5.1(@trpc/client@10.28.0)(@trpc/server@10.28.0)(jotai@2.1.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -2011,32 +2011,32 @@ packages:
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
 
-  /@trpc/client@10.27.3(@trpc/server@10.27.3):
-    resolution: {integrity: sha512-UjGHU7/XA8l7uUd0G7bIDlLHMBy+r5Z9XKe8/6uTGEc+u//0GnZ33iCeLkp86pPKzARmUnRDfRV1BYRb4f9+Jw==}
+  /@trpc/client@10.28.0(@trpc/server@10.28.0):
+    resolution: {integrity: sha512-Xhl2xdGI4PkI/a8xaTbsdpIXOy7PeOZaBBdvBgs2kpKiznNAI10qPrK+GLIDkSxvekLqDSnVYIhS0kU0FkhEXw==}
     peerDependencies:
-      '@trpc/server': 10.27.3
+      '@trpc/server': 10.28.0
     dependencies:
-      '@trpc/server': 10.27.3
+      '@trpc/server': 10.28.0
     dev: false
 
-  /@trpc/react-query@10.27.3(@tanstack/react-query@4.29.7)(@trpc/client@10.27.3)(@trpc/server@10.27.3)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-DfZLQbG59PcRywwHmPrPL1kjzMZwARyDZeZvBiZLNVBqvmjHUSJhlr+sTy65Y0q+MKPr6hcf85AMmKdyGiraMQ==}
+  /@trpc/react-query@10.28.0(@tanstack/react-query@4.29.7)(@trpc/client@10.28.0)(@trpc/server@10.28.0)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-ssXaZbtNHrgvUW/bmwpiEttF1t1TMZAp/FQ98puXE7MqpodEi2aIum1Ou9Cb1w0lEc4mPwOwztzwuUSGsdCD6Q==}
     peerDependencies:
       '@tanstack/react-query': ^4.18.0
-      '@trpc/client': 10.27.3
-      '@trpc/server': 10.27.3
+      '@trpc/client': 10.28.0
+      '@trpc/server': 10.28.0
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     dependencies:
       '@tanstack/react-query': 4.29.7(react-dom@18.2.0)(react@18.2.0)
-      '@trpc/client': 10.27.3(@trpc/server@10.27.3)
-      '@trpc/server': 10.27.3
+      '@trpc/client': 10.28.0(@trpc/server@10.28.0)
+      '@trpc/server': 10.28.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@trpc/server@10.27.3:
-    resolution: {integrity: sha512-WFW4al/ceCseYvp0ZeCwcY7wcypXuA0N0hH0l/VCSk7CHMJ5N9iduVtZXcnap3GAC8FNUEdwUW2/eQQ4DRra9A==}
+  /@trpc/server@10.28.0:
+    resolution: {integrity: sha512-PrJ/VgRuujMCtNkgrldCPbqv3+yk1LKweKEfvQHTN2L0WIaKJPXzSsOTJS9PqNpFOTqzaK5mgDbypIFvq7SYow==}
     dev: false
 
   /@ts-morph/common@0.17.0:
@@ -3867,15 +3867,15 @@ packages:
     hasBin: true
     dev: true
 
-  /jotai-trpc@0.5.1(@trpc/client@10.27.3)(@trpc/server@10.27.3)(jotai@2.1.0):
+  /jotai-trpc@0.5.1(@trpc/client@10.28.0)(@trpc/server@10.28.0)(jotai@2.1.0):
     resolution: {integrity: sha512-aRr7HYatqOaeFqYCPJvX1LHGAV3SW+0YhN/YCJcAalmj8enh91n6Dcg9RVfgY4R7NI9CPesZKMcpzd8QlnAvKQ==}
     peerDependencies:
       '@trpc/client': '>=10.0.0'
       '@trpc/server': '>=10.0.0'
       jotai: '>=1.11.0'
     dependencies:
-      '@trpc/client': 10.27.3(@trpc/server@10.27.3)
-      '@trpc/server': 10.27.3
+      '@trpc/client': 10.28.0(@trpc/server@10.28.0)
+      '@trpc/server': 10.28.0
       jotai: 2.1.0(react@18.2.0)
     dev: false
 
