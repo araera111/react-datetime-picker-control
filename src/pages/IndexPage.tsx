@@ -1,3 +1,1 @@
-import { CorrespondenceHistory } from "../features/correspondenceHistory/components/CorrespondenceHistory";
-
-export const IndexPage = () => <CorrespondenceHistory />;
+export const IndexPage = () => <div>Index</div>;
